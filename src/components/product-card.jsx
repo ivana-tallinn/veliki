@@ -35,6 +35,7 @@ const StyledIconButtons = styled.div`
   position: absolute;
   top: 2px;
   right: 2px;
+  z-index: 1;
 
   display: flex;
   gap: 2px;
@@ -58,6 +59,9 @@ const StyledIconButton = styled(IconButton)`
 `;
 
 const StyledContent = styled.div`
+  position: relative;
+  z-index: 1;
+
   display: grid;
   grid-template-columns: 1fr max-content;
   gap: 8px;
