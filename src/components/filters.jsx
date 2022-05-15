@@ -21,7 +21,9 @@ const StyledTop = styled.div`
 `;
 
 const StyledSort = styled(Select)`
-  max-width: 176px;
+  flex-grow: 1;
+  max-width: 220px;
+  width: 176px;
 `;
 
 const StyledFilterButton = styled(Button)`

@@ -15,6 +15,10 @@ const Resets = createGlobalStyle`
 
     background: none;
     box-shadow: none;
+
+    &:focus {
+      outline: 1px solid ${({ theme }) => theme.current === Theme.ADULT ? Color.ORANGE_40 : Color.GREEN_40};
+    }
   }
 
   body {
